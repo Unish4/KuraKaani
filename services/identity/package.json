@@ -1,0 +1,20 @@
+{
+  "name": "@kurakaani/identity",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KuraKaani Identity Service",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "winston": "^3.15.0",
+    "uuid": "^10.0.0"
+  }
+}
